@@ -1,0 +1,7 @@
+<form class="form-inline" [formGroup]="_form">
+    <div class="form-group">
+        <input formControlName="description" name="description" type="text" class="form-control" placeholder="Task Description"
+         [ngModel]="_descriptionValue" (ngModelChange) = "_descriptionValue = $event">
+    </div>
+    <button (click)='_emitAddTask()'>Add Task</button>
+</form>

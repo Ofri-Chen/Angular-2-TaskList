@@ -1,0 +1,17 @@
+form {
+    display: block;
+    margin: auto;
+    width: 500px;
+}
+
+.form-group {
+    display: inline-block;
+}
+
+button {
+    display: inline-block;
+}
+
+label {
+    margin-right: 10px;
+}

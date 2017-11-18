@@ -1,0 +1,12 @@
+#task-list {
+    width: 500px;
+    margin: auto;
+}
+
+table {
+    width: auto;
+}
+
+.checked {
+    background-color: greenyellow;
+}
